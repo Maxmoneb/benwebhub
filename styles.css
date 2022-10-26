@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3 {
+  padding-top: 30px;
+    font-family: system-ui;
+    color:#2E2E2E
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+
+  text-align: center;
+  background-color:white;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
+
+p {
+    font-family: lato;
+    color: black;
+    line-height: 1.5;
+    text-align: justify
+}
+
+.column img{
+  border-radius: 80px;
+}
+
+
+
+.ceo{
+  background-color: #66a3ff;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  text-decoration: none;
+}
+.tour{
+  text-align: center;
+  background-color: #66a3ff;
+}
+.tour img{
+  padding-top: 10px;
+  border-radius: 60px;
+}
+.says{
+  text-align: center;
+}
+.ceo a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer{
+  font-size: 25px;
+  text-align: center;
+  background-color: #66a3ff;
+  color: white;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
